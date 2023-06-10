@@ -1,12 +1,13 @@
 region: us-east-2
-vpcid: vpc-0de42ac3bfb74ae0b
-pubsub1id: subnet-028af6a4bede3e475
-pubsub2id: subnet-0ceb35d9933353f5b
-pubsub3id: subnet-032bdef04fa92b5a5
-privsub1id: subnet-090de0f99473b8778
-privsub2id: subnet-03e22b2de7b807075
-privsub3id: subnet-0afe6f2a0355f78a1
-igwid: igw-0708b2e83e032d7a2
-pubRTid: rtb-07aceb64699873ce1
-NATGWid: nat-09ee5242247f76902
-privRTid: rtb-0f8749bf8cc1991ea
+vpcid: vpc-0aef1bf17d17a9780
+pubsub1id: subnet-0b6693dc678aa41cb
+pubsub2id: subnet-0d28333aba0303d14
+pubsub3id: subnet-01da9a4b9b3d67d16
+privsub1id: subnet-0ffda1b20cd55dee8
+privsub2id: subnet-0048353b3a2e3353c
+privsub3id: subnet-0ec8bc8bf12d00fc8
+igwid: igw-0d7ff0ceeb0391438
+pubRTid: rtb-0ec3fb849352ffaac
+NATGWid: nat-08f47e01896e9c14c
+privRTid: rtb-06cce46861a28cf13
+
