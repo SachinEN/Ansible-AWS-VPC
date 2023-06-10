@@ -1,3 +1,0 @@
-bastion_ami: ami-012a02c31b6079415
-region: us-east-2
-MY_IP: 106.51.174.81/32
