@@ -34,7 +34,7 @@
           - proto: tcp
             from_port: 22
             to_port: 22
-            cidr_ip: 106.51.171.240/32
+            cidr_ip: "{{ MYIP }}"
       register: BastionSG_out
 
     - name: Creating Bastion Host
@@ -42,7 +42,7 @@
         key_name: vprofile-key
         region: "{{region}}"
         instance_type: t2.micro
-        image: ami-012a02c31b6079415
+        image: "{{ bastion_ami }}"
         wait: yes
         wait_timeout: 300
         instance_tags:
